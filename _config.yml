@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-f23/team01-f23-5pm-2
 owner: ucsb-cs156-f23
 repo_name: team01-f23-5pm-2
-pull_requests: [{"author":{"id":"MDQ6VXNlcjM1MjY0NzIx","is_bot":false,"login":"alexkxu","name":"Alex Xu"},"headRefName":"Alex-Joke","number":19,"title":"Add Joke Service","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/pull/19"}]
+pull_requests: [{"author":{"id":"MDQ6VXNlcjg3MDUzMjc1","is_bot":false,"login":"hancheng-li","name":""},"headRefName":"Hancheng-University","number":20,"title":"Add University Service and Tests","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/pull/20"},{"author":{"id":"MDQ6VXNlcjM1MjY0NzIx","is_bot":false,"login":"alexkxu","name":"Alex Xu"},"headRefName":"Alex-Joke","number":19,"title":"Add Joke Service","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/pull/19"}]
