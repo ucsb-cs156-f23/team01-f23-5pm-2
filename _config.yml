@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-f23/team01-f23-5pm-2
 owner: ucsb-cs156-f23
 repo_name: team01-f23-5pm-2
-pull_requests: [{"author":{"id":"MDQ6VXNlcjM1MjY0NzIx","is_bot":false,"login":"alexkxu","name":"Alex Xu"},"headRefName":"Alex-Joke","number":19,"title":"Add Joke Service","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/pull/19"},{"author":{"id":"MDQ6VXNlcjcyOTAzNjE1","is_bot":false,"login":"akainu11","name":"Adam Nobunaga"},"headRefName":"adam-locationservice","number":18,"title":"Added location service and test","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/pull/18"}]
+pull_requests: [{"author":{"id":"MDQ6VXNlcjM1MjY0NzIx","is_bot":false,"login":"alexkxu","name":"Alex Xu"},"headRefName":"Alex-Joke","number":19,"title":"Add Joke Service","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/pull/19"}]
