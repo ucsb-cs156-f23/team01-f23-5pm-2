@@ -12,10 +12,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 
-@Slf4j
 @Service
 public class PublicHolidayQueryService {
-
 
     private final RestTemplate restTemplate;
 
@@ -25,20 +23,7 @@ public class PublicHolidayQueryService {
 
     public static final String ENDPOINT = "https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}";
 
-    public String getJSON(String year, String countryCode) throws HttpClientErrorException {
-        log.info("countrycode={}", countrycode);
-        HttpHeaders headers = new HttpHeaders();
-        headers.setAccept(List.of(MediaType.APPLICATION_JSON));
-        headers.setContentType(MediaType.APPLICATION_JSON);
-
-        Map<String, String> uriVariables = Map.of("country", country);
-
-        HttpEntity<String> entity = new HttpEntity<>("body", headers);
-
-        ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class,
-                uriVariables);
-        return re.getBody();
-        return "";
+    public String getJSON(String zipcode) throws HttpClientErrorException {
+       return "";
     }
-
 }
