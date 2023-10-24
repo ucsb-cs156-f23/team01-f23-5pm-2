@@ -27,13 +27,13 @@ public class PublicHolidayQueryService	 {
 
     public static final String ENDPOINT = "https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}";
 
-    public String getJSON(String countryCode) throws HttpClientErrorException {
-        log.info("countryCode={}", countryCode);
+    public String getJSON(String countryCode, String Year) throws HttpClientErrorException {
+        log.info("countryCode={}, year={}", countryCode, Year);
         HttpHeaders headers = new HttpHeaders();
         headers.setAccept(List.of(MediaType.APPLICATION_JSON));
         headers.setContentType(MediaType.APPLICATION_JSON);
 
-        Map<String, String> uriVariables = Map.of("countryCode", countryCode);
+        Map< String, String> uriVariables = Map.of("countryCode", countryCode, "year", Year);
 
         HttpEntity<String> entity = new HttpEntity<>("body", headers);
 
