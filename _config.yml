@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-f23/team01-f23-5pm-2
 owner: ucsb-cs156-f23
 repo_name: team01-f23-5pm-2
-pull_requests: [{"author":{"id":"U_kgDOBh9GEw","is_bot":false,"login":"ChinDandekar","name":"ChinDandekar"},"headRefName":"github-pages-setup","number":33,"title":"changed all instances of 02-gh-pages-rebuild-part-1.yml to 02-gh-page…","url":"https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/pull/33"}]
+pull_requests: []
