@@ -9,8 +9,8 @@ Lab instructions: <https://ucsb-cs156.github.io/f23/lab/team01.html>
 |  Amgad    |amgadhawari  | `PublicHolidayQueryService` | `PublicHolidayController` |   
 |  Chinmay  |chindandekar | `TidesQueryService`         | `TidesController`         |   
 |  Hancheng | hancheng-li | `UniversityQueryService`    | `UniversityController`    |
-| Braden    | bradenc24   | `ZipCodeQueryService`       | `ZipCodeController`       |
-| Alex      | alexkxu     | `JokeQueryService`          | `JokeController`          |
+|  Braden   | bradenc24   | `ZipCodeQueryService`       | `ZipCodeController`       |
+|  Alex     | alexkxu     | `JokeQueryService`          | `JokeController`          |
 ```
 
 Repo: https://github.com/ucsb-cs156-f23/team01-f23-5pm-2
