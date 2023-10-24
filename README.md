@@ -2,24 +2,18 @@
 
 Lab instructions: <https://ucsb-cs156.github.io/f23/lab/team01.html>
 
-* TODO: Update the following table, then delete this line that says "TODO".
-
 ```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------| 
-|           |           | `LocationQueryService`      | `LocationController`      |   
-|           |           | `PublicHolidayQueryService` | `PublicHolidayController` |   
-|           |           | `TidesQueryService`         | `TidesController`         |   
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
+|   Name    | GitHub Id   |  Service                    | Controller                |
+|-----------|-----------  |-----------------------------|---------------------------| 
+|  Adam     |  akainu11   | `LocationQueryService`      | `LocationController`      |   
+|  Amgad    |amgadhawari  | `PublicHolidayQueryService` | `PublicHolidayController` |   
+|  Chinmay  |chindandekar | `TidesQueryService`         | `TidesController`         |   
+|  Hancheng | hancheng-li | `UniversityQueryService`    | `UniversityController`    |
+|  Braden   | bradenc24   | `ZipCodeQueryService`       | `ZipCodeController`       |
+|  Alex     | alexkxu     | `JokeQueryService`          | `JokeController`          |
 ```
 
-Repo: https://ucsb-cs156-f23/STARTER-team01
-
-* TODO: Correct the links to app on Dokku below, 
-  then delete this TODO.  Replace it with 
-  a link to your running app on Dokku, e.g.
-  https://team01.dokku-00.cs.ucsb.edu
+Repo: https://github.com/ucsb-cs156-f23/team01-f23-5pm-2
 
 On Heroku: http://team01.dokku-02.cs.ucsb.edu
 
