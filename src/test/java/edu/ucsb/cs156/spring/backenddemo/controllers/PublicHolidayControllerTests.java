@@ -46,7 +46,7 @@ public class PublicHolidayControllerTests {
     String year = "2023";
     when(mockPublicHolidayQueryService.getJSON(eq(countryCode),eq(year))).thenReturn(fakeJsonResult);
 
-    String url = String.format("/api/publicholidays/get?countryCoder=%s&year=%s",countryCode,year);
+    String url = String.format("/api/publicholidays/get?countryCode=%s&year=%s",countryCode,year);
 
     MvcResult response = mockMvc
         .perform( get(url).contentType("application/json"))
