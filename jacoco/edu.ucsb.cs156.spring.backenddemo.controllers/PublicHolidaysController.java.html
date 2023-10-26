@@ -35,7 +35,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
         @Parameter(name=&quot;countryCode&quot;, description=&quot;2 letter country code&quot;, example=&quot;US, MX, CN&quot;) @RequestParam String countryCode,
         @Parameter(name=&quot;year&quot;, description=&quot;The current year we are in&quot;, example=&quot;2012&quot;) @RequestParam String year
     ) throws JsonProcessingException {
-<span class="fc" id="L38">        log.info(&quot;getPublicHolidays: countryCoder={} year={}&quot;, countryCode, year);</span>
+<span class="fc" id="L38">        log.info(&quot;getPublicHolidays: countryCode={} year={}&quot;, countryCode, year);</span>
 <span class="fc" id="L39">        String result = PublicHolidayQueryService.getJSON(countryCode, year);</span>
 <span class="fc" id="L40">        return ResponseEntity.ok().body(result);</span>
     }
