@@ -18,7 +18,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
-@Tag(name="simple way to query the holidays of over 100 countries")
+@Tag(name="Public Holiday Controller")
 @Slf4j
 @RestController
 @RequestMapping("/api/publicholidays")
